@@ -1,6 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
+publishDir = "docs"
 
 [params]
   dateform        = "Jan 2, 2006"
