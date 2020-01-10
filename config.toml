@@ -1,4 +1,4 @@
-baseurl = "https://sami5001.github.io/samiCloud/"
+baseurl = "https://sami.cloud"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 publishDir = "docs"
