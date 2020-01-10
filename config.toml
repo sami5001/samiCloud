@@ -33,6 +33,7 @@ theme = "hello-friend-ng"
     [languages.en.params.logo]
       logoText = "sami.cloud"
       logoHomeLink = "/"
+      logoColor = "#67a2c9"
     # or
     #
     # path = "/img/your-example-logo.svg"
@@ -43,3 +44,16 @@ theme = "hello-friend-ng"
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+
+    # Social icons
+    [[params.social]]
+      name = "twitter"
+      url  = "https://twitter.com/hsami/"
+
+    [[params.social]]
+      name = "email"
+      url  = "mailto:sami@kapani.de"
+
+    [[params.social]]
+      name = "github"
+      url  = "https://github.com/sami5001/"
