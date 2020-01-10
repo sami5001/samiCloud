@@ -3,6 +3,23 @@ languageCode = "en-us"
 theme = "hello-friend-ng"
 publishDir = "docs"
 
+rssLimit  = 50  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Sami Adnan"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -23,10 +40,12 @@ publishDir = "docs"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
+  homeSubtitle = "Associate of The Royal Society for Public Health, UK • Founder of Kapani IT Systems and Solutions • Member of the European AI Alliance • Currently my research interests are Electronic Health Records and its regulatory aspects; along with Biobanking, Medical Ethics, Patient Data Privacy, and the application of artificial intelligence of big data in healthcare research/systems."
+
 [languages]
   [languages.en]
-    title = "sami.cloud webspace"
-    subtitle = "Welcome to my personal webspace"
+    title = "Hassan Sami Adnan"
+    subtitle = ""
     keywords = ""
     copyright = ""
     readOtherPosts = "Read other posts"
