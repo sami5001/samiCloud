@@ -24,7 +24,7 @@ theme = "hello-friend-ng"
 
 [languages]
   [languages.en]
-    title = "sami.cloud"
+    title = "sami.cloud webspace"
     subtitle = "Welcome to my personal webspace"
     keywords = ""
     copyright = ""
