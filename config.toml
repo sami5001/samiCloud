@@ -40,7 +40,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
-  homeSubtitle = "Associate of The Royal Society for Public Health, UK • Founder of Kapani IT Systems and Solutions • Member of the European AI Alliance • Currently my research interests are Electronic Health Records and its regulatory aspects; along with Biobanking, Medical Ethics, Patient Data Privacy, and the application of artificial intelligence of big data in healthcare research/systems."
+#  homeSubtitle = "Associate of The Royal Society for Public Health, UK • Founder of Kapani IT Systems and Solutions • Member of the European AI Alliance • Currently my research interests are Electronic Health Records and its regulatory aspects; along with Biobanking, Medical Ethics, Patient Data Privacy, and the application of artificial intelligence of big data in healthcare research/systems."
 
 [languages]
   [languages.en]
@@ -62,17 +62,21 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
   # And you can even create generic menu
   [[menu.main]]
     identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+    name       = "Notes"
+    url        = "/notes"
 
     # Social icons
+    [[params.social]]
+      name = "email"
+      url  = "mailto:sami@kapani.de"
+
     [[params.social]]
       name = "twitter"
       url  = "https://twitter.com/hsami/"
 
-    [[params.social]]
-      name = "email"
-      url  = "mailto:sami@kapani.de"
+      [[params.social]]
+        name = "instagram"
+        url  = "https://www.instagram.com/hsami/"
 
     [[params.social]]
       name = "github"
